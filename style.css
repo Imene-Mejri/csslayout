@@ -1,0 +1,386 @@
+
+
+
+
+      
+  /* navbar css */
+
+  nav{
+      background-color:white;
+     display: flex;
+     justify-content: space-between;
+     overflow: hidden;
+     background-color: white;
+     position: fixed; 
+     top: 0px;
+     width: 100%;
+     box-shadow: gray;
+     padding: 10px;
+     
+   
+  }
+ 
+
+  nav a,ul {
+    list-style: none;
+    color:rgb(174, 181, 180 ); 
+    padding:6px;
+    text-decoration: none;
+    display: flex;
+   
+}
+  
+  nav a:hover{
+     
+    background-color:white;
+    color:rgb(89, 227, 194 );
+    padding: 6px;
+    
+}
+.nav1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  /*---------------------section1-----------------------*/
+
+  
+  .img1{
+      text-align: center;
+      padding: 120px;
+     
+  }
+ .img1 h2{
+    color:rgb(20, 231, 182 ) ;
+    padding: 0px;
+ }
+ 
+  .p1{
+      display: flex;
+      flex-direction: row;
+      color: rgb(144, 149, 148 );
+      word-spacing:2px;
+     justify-content: space-between;
+     font-size: 20px;
+     padding: 1px;
+     padding-left: 10px;
+     margin: 10px;
+     padding-top: 2px;
+  }
+  #arc1{
+      border: 2px;
+      color: white;
+      background-color:rgb(20, 231, 182 );
+     text-align: left;
+     margin: 10px;
+     align-items: flex-start;
+     border-radius: 7px;
+     padding-top: 10px;
+    
+       
+  }
+  #arc1 i,h1,p,form{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+  #arc2{
+    border: 2px;
+    color: white;
+    background-color:rgb(64, 79, 243  );
+    margin: 10px;
+    border-radius: 7px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 9px;
+    text-align: left;
+    
+} 
+#arc2 i,h3,p,form{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+#arc3{
+    border: 2px;
+    color: white;
+    background-color:rgb(44, 44, 45  );
+    margin: 10px;
+    border-radius: 7px;
+}
+#arc3 i,h3,p,form{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+#arc4 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    padding: 10px;
+
+}
+
+#arc4 ul,li,a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    word-spacing: 200px;
+    font-size: 20px;
+    padding: 11px;
+
+}
+#arc4 p{
+    color: rgb(20, 231, 182 );
+    font-size: 20px;
+  
+
+}
+
+
+  .rec{
+      display: flex;
+      flex-direction: row;
+      width: 900px;
+      height: 450px;
+      justify-content: space-between;
+      padding: 150px;
+      margin: 19px;
+      border-radius: 10px;
+      
+
+  }
+  .rec h1 p{
+      padding: 70px;
+      padding-left: 20px;
+  }
+  #select1{
+      background-color:rgb(20, 231, 182  ) ;
+      border: none;
+    color: white;
+  }
+  #select2{
+    background-color:rgb(64, 79, 243   ) ;
+    border: none;
+  color: white;
+}
+#select3{
+    background-color:rgb(44, 44, 45   ) ;
+    border: none;
+  color: white;
+}
+#select4{
+    background-color:rgb(44, 44, 45   ) ;
+    border: none;
+  color: white;
+ 
+}
+.p{
+    color: rgb(20, 231, 182  );
+    word-spacing: 5px;
+    size: 150px;
+   
+}
+.logo1 a{
+    color:rgb(174, 181, 180) ;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.logo2 a{
+    color:rgb(174, 181, 180) ;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#arc4{
+    display: flex;
+    flex-direction: row;
+}
+.bigsection{
+    border:none;
+    background-color: rgb(119, 242, 231 );
+    color: rgb(20, 231, 182 );
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 200;
+
+}
+
+.bigsection h2{
+    color: rgb(20, 231, 182 );
+   font-size: 30px;
+   padding: 50px;
+   text-align: center;
+
+  
+  
+}
+.bigsection p{
+    color: gray;
+    text-align: center;
+    padding: 30px;
+ 
+
+}
+.bigsection img{
+    
+    text-align: left;
+    padding: 230px;
+    padding-left: 20px;
+ 
+
+}
+
+.footer{
+    display: flex;
+   text-align: center;
+    color: gray;
+    font-size: 15px;
+    background: center;
+    border: 4px;
+    background-color:white;
+   
+    box-shadow: grey;
+}
+.footer a{
+    font-size: 10px;
+  
+  
+
+}
+#element1{
+    
+    border: 1px;
+    height: 950px;
+    width: 350px;
+    text-align: center;
+}
+.tab1{
+    border: 1px;
+    height: 300px;
+    width: 250px;
+    background-color:white ;
+    text-align: center;
+    font-size: 17px;
+    margin: 5px;
+}
+.tab2{
+    border: 1px;
+    height: 300px;
+    width: 250px;
+    background-color:white ;
+    text-align: center;
+    font-size: 17px;
+    margin: 5px;
+   
+
+}
+.tab3{
+    border: 1px;
+    height: 300px;
+    width: 250px;
+    background-color:white ;
+    text-align: center;
+    font-size: 17px;
+    margin: 5px;
+
+}
+.tab4{
+    border: 1px;
+    height: 300px;
+    width: 250px;
+    background-color:white ;
+    text-align: center;
+    font-size: 17px;
+    margin: 5px;
+    padding: 5px;
+
+}
+#element2{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    margin: 30px;
+    padding-right: 2px;
+    text-align: center;
+    border-radius: 20px;
+}
+#element2 i,h3,p{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#element3{
+    padding-left: 2px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+}
+#element3 i,h3,p{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#bigimages p{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    font-style: inherit;
+    margin: 50px;
+    
+
+}
+#bigimages h2{
+    text-align: center;
+    color:rgb(20, 231, 182 ); ;
+    font-size: 20px;
+    margin: 30px;
+    
+
+}
+.bloc1{
+    border: 1px;
+padding-left: 170px;
+padding-right:170px ;
+    height: 90px;
+    margin: 90px;
+} 
+
+#bigimages{
+    background-color: white;
+    
+    
+    
+}
+.image1{
+    display: flex;
+
+}
+.image3{
+    display: flex;
+    
+}
+.image2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: red;
+}
+.sectionfinal{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+.sectionfinal button{
+    background-color: rgb(64, 79, 243   );
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+    height: 60px;
+}
+
